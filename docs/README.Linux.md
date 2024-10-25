@@ -25,7 +25,7 @@ The following instructions assume you will have built Kodi already in the `kodi-
 suggested by the README.
 
 1. `git clone https://github.com/AlwinEsch/kodi.git`
-2. `git clone https://github.com/AlwinEsch/web.browser.chromium.git`
+2. `git clone https://github.com/thedisbo1125/web.browser.chromium.git`
 3. `cd web.browser.chromium && mkdir build && cd build`
 4. `cmake -DADDONS_TO_BUILD=web.browser.chromium -DADDON_SRC_PREFIX=../.. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=$HOME/.kodi/addons -DPACKAGE_ZIP=1 -DTHIRD_PARTY_PATH=$HOME/chromium ../../kodi/cmake/addons`
 5. `make`
