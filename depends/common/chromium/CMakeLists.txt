@@ -127,7 +127,7 @@ endif()
 # Set the used Python or
 # force on windows to use python.bat from depot_tools
 if(NOT CORE_SYSTEM_NAME STREQUAL windows)
-  find_program(PYTHON "python")
+  find_program(PYTHON "python3")
 else()
   set(PYTHON "${DEPOT_TOOLS_DIR}/python.bat")
  endif()
